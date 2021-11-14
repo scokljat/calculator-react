@@ -1,0 +1,38 @@
+body {
+  background-color: #f3f0d7;
+}
+h1 {
+  text-align: center;
+  font-size: 30px;
+  color: #ffbf86;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.wrap {
+  display: flex;
+  flex-direction: column;
+
+  background-color: #cee5d0;
+  padding: 10px;
+  border-radius: 5px;
+}
+.row {
+  display: flex;
+}
+button {
+  flex: 1;
+  height: 30px;
+  background-color: #ffbf86;
+  margin: 5px;
+  border: 0;
+}
+input {
+  height: 30px;
+  background-color: #fed2aa;
+  border: 0;
+  text-align: right;
+}
